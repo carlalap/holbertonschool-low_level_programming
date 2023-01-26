@@ -12,7 +12,7 @@
 
 int main(void)
 {
-	int n;
+	int n = 0;
 
 	for (; n < 10 ; n++)
 	{
