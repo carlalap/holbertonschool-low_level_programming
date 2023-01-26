@@ -3,31 +3,25 @@
 #include <time.h>
 #include <stdio.h>
 
-/* more headers goes there */
+
 /**
  * main - entry point
  *
  *
- * Description: Write a program that prints the alphabet in lowercase,
- * * and then in uppercase, followed by a new line.
- * *
+ * Return: Always 0. 
  */
 
-/* betty style doc for function main goes there */
 
 int main(void)
 {
 	char letter;
-	char LETTER;
 
 	for (letter = 'a'; letter <= 'z' ; letter++)
-	{
 		putchar(letter);
-	}
-	for (LETTER = 'A'; letter <= 'Z' ; letter++)
-	{
-		putchar(LETTER);
-	}
+
+	for (letter = 'A'; letter <= 'Z' ; letter++)
+		putchar(letter);
+
 	putchar('\n');
 	return (0);
 }
