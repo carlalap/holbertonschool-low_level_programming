@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- * num: prints the last digit of a number
+ * print_last_digit - check the code
+ * @num: prints the last digit of a number
  * Return: Always 0.
  */
 
