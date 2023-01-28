@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+#include <stdio.>
 
 /**
  * main - check the code
@@ -13,3 +13,4 @@ int print_last_digit(int lastnum)
 
 	printf("%d", print_last_digit);
 }
+	return(0);
