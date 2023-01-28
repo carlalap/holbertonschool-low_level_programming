@@ -7,11 +7,17 @@
  * Return: Always 0.
  */
 
-int print_last_digit(int lastnum)
+int print_last_digit(int num)
 {
-	int print_last_digit = lastnum % 10;
+	int lastnum;
 
-	printf("%d", print_last_digit);
+	lastnum = (num % 10);
+	if (lastnum < 0);
 
-	return(0);
+	{
+	lastnum = (lastnum * -1);
+	}
+
+	_putchar(lastnum + '0')
+	return(lastnum);
 }
