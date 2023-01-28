@@ -3,7 +3,7 @@
 
 /**
  * main - check the code
- * last_digit: prints the last digit of a number
+ * num: prints the last digit of a number
  * Return: Always 0.
  */
 
