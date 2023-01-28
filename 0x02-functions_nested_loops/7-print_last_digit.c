@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - check the code
@@ -10,5 +11,5 @@ int print_last_digit(int lastnum)
 {
 	int print_last_digit = lastnum % 10;
 
-	printf("%d", lastdigit);
+	printf("%d", print_last_digit);
 }
