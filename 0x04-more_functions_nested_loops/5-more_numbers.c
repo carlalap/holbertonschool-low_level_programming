@@ -14,11 +14,16 @@ void more_numbers(void)
 
 	int i, j;
 
+/*external loop, count lines*/
 
-	for (j = 0; j < 9; j++)
+	for (j = 0; j <= 9; j++)
 
 	{
-		for (i = 1; i < 15; i++)
+
+/*internal loop, count from 0-14
+ * _putchar funtion, prints just 1 character
+*/
+		for (i = 1; i <= 14; i++)
 		{
 			if (i > 9)
 			{
@@ -29,5 +34,4 @@ void more_numbers(void)
 
 	_putchar('\n');
 	}
-
 }
