@@ -20,7 +20,8 @@ void more_numbers(void)
 
 	{
 
-/*internal loop, count from 0-14
+/**
+ * internal loop, count from 0-14
  * _putchar funtion, prints just 1 character
 */
 		for (i = 1; i <= 14; i++)
