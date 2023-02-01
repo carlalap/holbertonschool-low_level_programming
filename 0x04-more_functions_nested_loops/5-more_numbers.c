@@ -19,12 +19,11 @@ void more_numbers(void)
 	for (j = 0; j <= 9; j++)
 
 	{
-
 /**
  * internal loop, count from 0-14
- * _putchar funtion, prints just 1 character
+ * _putchar prints just 1 character
 */
-		for (i = 1; i <= 14; i++)
+		for (i = 0; i <= 14; i++)
 		{
 			if (i > 9)
 			{
