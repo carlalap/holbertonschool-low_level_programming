@@ -11,16 +11,21 @@ void print_triangle(int size)
 {
 	int i, j;
 
-
 	if (size <= 0)
 	{
 	_putchar('\n');
-	} 
+	}
 	else
 	{
-
+/*
+ * external loop for number of rows
+ */
 		for (i = 1; i <= size; i++)
 		{
+
+/*
+* internal loop for number of columns
+*/
 			for (j = 1; j <= size; j++)
 			{
 				if ((i + j) <= size)
@@ -32,8 +37,7 @@ void print_triangle(int size)
 				_putchar('#');
 				}
 			}
-		_putchar('\n');
-			
+			_putchar('\n');
 		}
-	}	
+	}
 }
