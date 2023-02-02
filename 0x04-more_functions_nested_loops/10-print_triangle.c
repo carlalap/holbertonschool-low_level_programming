@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_triangle - prints a triangle followed by a new line
- * 
- * @size: is the size of the triangle
- */
+ * print_triangle - print a triangle
+ * @size: demensions of triangle
+ * Return: nothing
+ **/
 
 void print_triangle(int size)
 
