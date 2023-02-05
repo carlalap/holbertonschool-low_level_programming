@@ -5,6 +5,8 @@
 /**
  * rev_string - Reverses a string.
  * @s: The string to be reversed.
+ * My School
+ * loohcS yM
  */
 
 
@@ -12,12 +14,16 @@
 void rev_string(char *s)
 
 {
-	int i;
+	int i = 0;
+	int count = 0;
+	char len [500];
+
 
 	while (s[i] != '\0')
 
 	{
-	   i++;
+	count++;
+	i++;
 	}
 
 	for (; i > 0; i++)
@@ -25,10 +31,4 @@ void rev_string(char *s)
 	_putchar(s[i]);
 	}
 
-	for (i = (_strlen(s) - 1) ; i >= 0; i--)
-	{
-		_putchar(s[i]);
-	}
-	_putchar('\n');
-}
-
+	
