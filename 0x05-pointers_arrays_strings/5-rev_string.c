@@ -15,7 +15,7 @@ void rev_string(char *s)
 
 int i = 0;
 int j = 0;
-char reverse[100];
+char reverse[1000];
 
 
 /*count the length of the array num*/
