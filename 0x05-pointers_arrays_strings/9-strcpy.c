@@ -3,11 +3,13 @@
 
 
 /**
- * _strcpy: copies the string pointed to by src
- * @src: pointer of array
- * @dest: destination pointer
- * Return: the pointer to dest
-*/
+ * _strcpy - main function to copy
+ *
+ * @dest: destination to copy
+ * @src: src
+ *
+ * Return: a character value
+ */
 
 char *_strcpy(char *dest, char *src)
 
