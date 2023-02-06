@@ -6,6 +6,7 @@
  * _strcpy: copies the string pointed to by src
  * @src: pointer of array
  * @dest: destination pointer
+ * Return: the pointer to dest
 */
 
 char *_strcpy(char *dest, char *src)
