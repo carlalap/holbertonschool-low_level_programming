@@ -3,12 +3,10 @@
 
 
 /**
- * char *_strcpy - Write a function that copies the string pointed to by src
+ * _strcpy: copies the string pointed to by src
  * @src: pointer of array
  * @dest: destination pointer
- * @n: how many times to prints
 */
-
 
 char *_strcpy(char *dest, char *src)
 
