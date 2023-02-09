@@ -7,6 +7,11 @@
  * Return: return value of upper
  */
 
+/*
+* returns all characters from lowercase to uppercase
+*/
+
+
 char *string_toupper(char *s1)
 
 {
@@ -14,17 +19,15 @@ char *string_toupper(char *s1)
 int i;
 
 
-for (i = 0; s1[i] != '\0'; i++)
+	for (i = 0; s1[i] != '\0'; i++)
 
-	{	
+	{
 	if (s1[i] >= 97 && s1[i] <= 122)
 
-		{		
+		{
 		s1[i] = s1[i] - 32;
 		}
 	}
-	
 	return (s1);
-	
 
 }
