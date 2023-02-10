@@ -9,7 +9,7 @@
 char *leet(char *s)
 
 {
-	char alphaNum[] = "aA4eE3oO0tT7lL1";
+	char alphaNum[] = "a4A4e3E3o0O0t7T7l1L1";
 	int i;
 	int j;
 
