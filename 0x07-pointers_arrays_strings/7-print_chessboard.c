@@ -1,17 +1,13 @@
 #include "main.h"
 
-/*
- * File: 7-print_chessboard.c
- * Auth: Brennan D Baraban
- */
-
-#include "holberton.h"
-
 /**
  * print_chessboard - Prints a chessboard.
  * @a: The chessboard to be printed.
  */
+
+
 void print_chessboard(char (*a)[8])
+
 {
 	int indx1, indx2;
 
