@@ -1,3 +1,5 @@
+#include "main.h"
+
 /*
  * File: 7-print_chessboard.c
  * Auth: Brennan D Baraban
