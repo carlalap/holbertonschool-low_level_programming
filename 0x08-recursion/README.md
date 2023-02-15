@@ -4,9 +4,9 @@
 Resources
 
 <a href="https://www.youtube.com/watch?v=Mv9NEXX1VHc" > What on Earth is Recursion? - Computerphile</a> 
-<a href="https://www.tutorialspoint.com/cprogramming/c_recursion.htm" > C - Recursion</a>
-<a href="https://www.youtube.com/watch?v=XGxbXMP6k8k" >C Programming Tutorial 85, Recursion pt.1</a>
-<a href="https://www.youtube.com/watch?v=7XiIS6HobNs" >C Programming Tutorial 86, Recursion pt.2</a>
+<br><a href="https://www.tutorialspoint.com/cprogramming/c_recursion.htm" > C - Recursion</a>
+<br><a href="https://www.youtube.com/watch?v=XGxbXMP6k8k" >C Programming Tutorial 85, Recursion pt.1</a>
+<br><a href="https://www.youtube.com/watch?v=7XiIS6HobNs" >C Programming Tutorial 86, Recursion pt.2</a>
 
 
 
@@ -44,7 +44,6 @@ Factorial of 0 is 1
 4. Once an idea has taken hold of the brain it's almost impossible to eradicate
 mandatory
 Write a function that returns the value of x raised to the power of y.
-
 Prototype: int _pow_recursion(int x, int y);
 If y is lower than 0, the function should return -1
 FYI: The standard library provides a different function: pow. Run man pow to learn more.
@@ -52,7 +51,6 @@ FYI: The standard library provides a different function: pow. Run man pow to lea
 5. Your subconscious is looking for the dreamer
 mandatory
 Write a function that returns the natural square root of a number.
-
 Prototype: int _sqrt_recursion(int n);
 If n does not have a natural square root, the function should return -1
 FYI: The standard library provides a different function: sqrt. Run man sqrt to learn more.
@@ -60,5 +58,4 @@ FYI: The standard library provides a different function: sqrt. Run man sqrt to l
 6. Inception. Is it possible?
 mandatory
 Write a function that returns 1 if the input integer is a prime number, otherwise return 0.
-
 Prototype: int is_prime_number(int n);
