@@ -5,7 +5,7 @@
  * @n: value to get square root
  * @i: variable to help get the square
  * Description: find square root of n using recursion and two variables
- * Return:  natural square root of a number
+ * Return: square root of n or (-1) if n root is not natural
  */
 
 
