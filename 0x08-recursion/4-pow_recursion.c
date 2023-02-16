@@ -3,9 +3,9 @@
 
 /**
  * pow_recursion -  function returns a value x raised to the power y
- * @x: value raised to the power y
- * @y: power of the value x
- * Return:  the value of x raised to the power of y
+ * @x: value raised y
+ * @y: power of x
+ * Return:  x exp y
  */
 
 
