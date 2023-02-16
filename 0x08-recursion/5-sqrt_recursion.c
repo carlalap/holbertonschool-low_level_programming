@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * sqrt_con - returns root of n using i
- * @n: value to get square root
- * @i: variable to help get the square
+ * sqr_con - finds square root of n
+ * @n: number to square
+ * @i: test case for root
  * Description: find square root of n using recursion and two variables
- * Return: square root of n or (-1) if n root is not natural
- */
+ * Return: square root of n or -1 if none
+ **/
 
 
 int sqr_con(int n, int i)
