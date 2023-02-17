@@ -11,7 +11,7 @@
  * Return: if is less 3 arg prints Error
  */
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 
 {
 	int result;
