@@ -19,7 +19,8 @@ How to use arguments passed to your program
 
 <b>Requirements</b>
 
-<<br>General
+<br>General
+
 <br>Allowed editors: vi, vim, emacs
 <br>All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 <br>All your files should end with a new line
