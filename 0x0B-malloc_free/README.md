@@ -7,9 +7,11 @@ Resources
 
 
 <b>Learning Objectives</b>
+
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 <b>General</b>
+
 What is the difference between automatic and dynamic allocation
 <br>What is malloc and free and how to use them
 <br>Why and when use malloc
