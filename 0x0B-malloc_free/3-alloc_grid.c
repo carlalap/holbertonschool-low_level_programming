@@ -26,7 +26,7 @@ int **alloc_grid(int width, int height)
 /*Allocate memory for each row of the 2D array */
 	for (row = 0; row < height; row++)
 	{
-	grid[row] = (int *)malloc(width * sizeof(int *));
+	grid[row] = (int *)malloc(width * sizeof(int));
 		if (grid[row] == NULL)
 		{
 /* Free previously allocated memory if allocation fails */
