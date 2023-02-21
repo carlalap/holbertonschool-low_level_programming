@@ -8,7 +8,6 @@
  * @s2: string 2
  * Return: returns concated string
  */
-
 char *str_concat(char *s1, char *s2)
 {
 	int i, len1, len2;
@@ -23,8 +22,7 @@ char *str_concat(char *s1, char *s2)
 	if (s2 == NULL)
 		s2 = "";
 
-/*check lenght of s1 and s2 */ 
-
+/*check lenght of s1 and s2 */
 	while (s1[i] != '\0')
 	{
 		i++;
@@ -39,7 +37,6 @@ char *str_concat(char *s1, char *s2)
 		len2++;
 	}
 /* allocate memory for s1 and s2 */
-
 	conca = (char *)malloc((len1 + len2 + 1) * sizeof(char));
 
 	if (conca == NULL)
