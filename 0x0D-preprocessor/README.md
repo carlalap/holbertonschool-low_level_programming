@@ -4,7 +4,7 @@
 Resources
 
 <a href="https://www.youtube.com/watch?v=VDslRumKvRA" > Understanding C program Compilation Process</a> 
-<br><a href="http://crasseux.com/books/ctutorial/argc-and-argv.html"> 3.1 Object-like Macros</a>
+<br><a href="http://crasseux.com/books/ctutorial/argc-and-argv.html"> Object-like Macros</a>
 <br><a href="https://gcc.gnu.org/onlinedocs/gcc-5.1.0/cpp/Macro-Arguments.html#Macro-Arguments"> Macro Arguments</a>
 <br><a href="https://www.youtube.com/watch?v=X6HiYbY3Uak"> Pre Processor Directives in C</a>
 <br><a href="https://www.cprogramming.com/tutorial/cpreprocessor.html"> The C Preprocessor</a>
