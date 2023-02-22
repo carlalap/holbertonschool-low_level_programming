@@ -57,12 +57,12 @@ Tasks
 <br>1. Pi
 <br>Create a header file that defines a macro named PI as an abbreviation for the token 3.14159265359.
 
-2. File name
+<br>2. File name
 <br>Write a program that prints the name of the file it was compiled from, followed by a new line.
 <br>You are allowed to use the standard library
 
-3. Function-like macro
+<br>3. Function-like macro
 <br>Write a function-like macro ABS(x) that computes the absolute value of a number x
 
-4. SUM
+<br>4. SUM
 <br>Write a function-like macro SUM(x, y) that computes the sum of the numbers x and y.
