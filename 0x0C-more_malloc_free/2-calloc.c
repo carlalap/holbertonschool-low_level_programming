@@ -16,18 +16,24 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	unsigned int i;
 	char *s;
 
-	if (nmemb == 0 || size == 0)
-		return (NULL);
+	/* If nmemb or size is 0, _calloc returns NULL */
+        if (nmemb == 0 || size == 0)
+                return (NULL);
 
-	s = (char *)malloc(nmemb * size);
+        /*declaration malloc*/
+        s = (char *)malloc(nmemb * size);
 
-	if (s == NULL)
-		return (NULL);
+        /*if malloc fails, _calloc returns NULL*/
+        if (s == NULL)
+                return (NULL);
 
-	for (i = 0; i < nmemb * size; i++)
-		s[i] = 0;
+        /*allocation memory for array*/
+        for (i = 0; i < nmemb * size; i++)
+                s[i] = 0;
 
-	return (s);
+        return (s);
+
+
 
 }
 
