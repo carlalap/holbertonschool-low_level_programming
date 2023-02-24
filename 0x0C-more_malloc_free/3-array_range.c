@@ -22,7 +22,7 @@ int *array_range(int min, int max)
 
 	 /*allocation memory for array*/
 	for (i = min; i <= max; i++)
-                len_s++;
+		len_s++;
 
 	/*declaration malloc*/
 	s = (int *)malloc(len_s * sizeof(int));
@@ -31,7 +31,7 @@ int *array_range(int min, int max)
 	if (s == NULL)
 		return (NULL);
 
-	
+	/*values ordered from min to max*/
 	i = 0;
 	while (min <= max)
 	{
