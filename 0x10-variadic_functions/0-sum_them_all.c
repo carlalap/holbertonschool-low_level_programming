@@ -4,23 +4,21 @@
 #include "variadic_functions.h"
 
 /**
- * print_numbers - print numbers with a given separator
- * @separator: string to print between numbers
+ * sum_them_all - sum all parameters
  * @n: number of parameters
- * Return: void
+ * Return: sum of parameters
  **/
-void print_numbers(const char *separator, const unsigned int n, ...)
+int sum_them_all(const unsigned int n, ...)
 {
 	va_list ap;
-	unsigned int i;
+	unsigned int i, sum;
 
+	sum = 0;
 	va_start(ap, n);
 	for (i = 0; i < n; i++)
 	{
-		printf("%d", va_arg(ap, int));
-		if (separator != NULL && i < n - 1)
-			printf("%s", separator);
+		sum += va_arg(ap, int);
 	}
-	printf("\n");
 	va_end(ap);
+	return (sum);
 }
