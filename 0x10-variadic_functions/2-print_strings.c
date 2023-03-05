@@ -8,8 +8,6 @@
  * @separator: The string to be printed between numbers.
  * @n: The number of integers passed to the function.
  * @...: A variable number of numbers to be printed.
- * Description: If separator is NULL, it is not printed.
- *              If one of the strings if NULL, (nil) is printed instead.
  */
 
 
