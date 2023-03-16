@@ -8,7 +8,7 @@
  * main - program that adds positive numbers
  * @argc: int num of inbound args
  * @argv: pointer to array of pointers w/ said args
- * Description: print sum of addition of argv[]
+ * Description: print int sum of addition of argv[]
  * Return: 1 if one symbols is not digit prints Error
  */
 
