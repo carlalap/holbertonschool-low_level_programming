@@ -4,7 +4,7 @@
 #include <string.h>
 
 /**
- * add_node - adds a new node
+ * add_node_end - adds a new node at end
  * @head: head address i think
  * @str: string to put through
  * Return: returns an address of new node
