@@ -7,13 +7,13 @@
 /**
  * print_listint - prints integers in list
  * @h: struct listint_t type
- * Return: size_t value
+ * Return: print all elements
  */
 
 size_t print_listint(const listint_t *h)
 
 {
-	size_t count = 0;
+	siize_t count = 0;
 
 	while (h != NULL)
 	{
