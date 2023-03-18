@@ -4,13 +4,12 @@
 #include <stddef.h>
 
 /**
- * print_listint - prints integers in list
- * @h: struct listint_t type
- * Return: print all elements
+ * print_listint - prints all elements of a listint_t list.
+ * @h: a pointer to the start of the list
+ * Return: print all elements in listint_t list.
  */
 
 size_t print_listint(const listint_t *h)
-
 {
 	size_t count;
 
