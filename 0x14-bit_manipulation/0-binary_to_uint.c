@@ -15,6 +15,10 @@ unsigned int binary_to_uint(const char *b)
 	unsigned int result = 0;
 	int bit = 0;
 
+
+	if (b == NULL)
+		return (0);
+
 /*
  * Iterate through each character in the string
 */
