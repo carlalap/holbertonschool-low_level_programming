@@ -15,9 +15,9 @@ void print_binary(unsigned long int n)
  */
 		print_binary(n >> 1);
 
-/* 
- * heck if the least significant bit of n is 1, 
- * If it is, the function prints '1'. 
+/*
+ * heck if the least significant bit of n is 1,
+ * If it is, the function prints '1'.
  * if not  it prints '0'.
  */
 
