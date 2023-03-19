@@ -9,7 +9,7 @@
  *       written in the 0x16. C - File I/O.
  */
 
-
+#include <stdlib.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
