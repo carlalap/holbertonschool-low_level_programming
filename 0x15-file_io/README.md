@@ -7,7 +7,7 @@
 Read or watch:
 
 <a href="https://en.wikipedia.org/wiki/File_descriptor">File descriptors</a>
-
+<a href="https://www.geeksforgeeks.org/c-file-io/">C – File I/O</a>
 
 <b>man or help</b>
 
