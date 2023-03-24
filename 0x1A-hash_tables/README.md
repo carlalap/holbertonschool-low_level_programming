@@ -7,8 +7,8 @@
 Read or watch:
 
 <a href="https://www.youtube.com/watch?v=MfhjkfocRR0"> What is a HashTable Data Structure - Introduction to Hash Tables , Part 0 </a>
-<a href="https://en.wikipedia.org/wiki/Hash_function"> Hash function</a>
-<a href="https://en.wikipedia.org/wiki/Hash_table"> Hash table</a>
+<br><a href="https://en.wikipedia.org/wiki/Hash_function"> Hash function </a>
+<br><a href="https://en.wikipedia.org/wiki/Hash_table"> Hash table </a>
 
 
 <b>Learning Objectives</b>
@@ -82,7 +82,6 @@ typedef struct hash_table_s
 <br>0. >>> ht = {}
 
 <br>Write a function that creates a hash table.
-
 <br>Prototype: hash_table_t *hash_table_create(unsigned long int size);
 <br>where size is the size of the array
 <br>Returns a pointer to the newly created hash table
@@ -90,13 +89,14 @@ typedef struct hash_table_s
 
 
 <br>1. djb2
+
 <br>Write a hash function implementing the djb2 algorithm.
 <br>Prototype: unsigned long int hash_djb2(const unsigned char *str);
 <br>You are allowed to copy and paste the function from this page
 
 <br>2. key -> index
-<br>Write a function that gives you the index of a key.
 
+<br>Write a function that gives you the index of a key.
 <br>Prototype: unsigned long int key_index(const unsigned char *key, unsigned long int size);
 -where key is the key
 -and size is the size of the array of the hash table
@@ -106,8 +106,8 @@ You will have to use this hash function for all the next tasks
 
 
 <br>3. >>> ht['betty'] = 'cool'
-<br>Write a function that adds an element to the hash table.
 
+<br>Write a function that adds an element to the hash table.
 <br>Prototype: int hash_table_set(hash_table_t *ht, const char *key, const char *value);
 -Where ht is the hash table you want to add or update the key/value to
 -key is the key. key can not be an empty string
@@ -117,16 +117,16 @@ You will have to use this hash function for all the next tasks
 
 
 <br>4. >>> ht['betty']
-<br>Write a function that retrieves a value associated with a key.
 
+<br>Write a function that retrieves a value associated with a key.
 <br>Prototype: char *hash_table_get(const hash_table_t *ht, const char *key);
 -where ht is the hash table you want to look into
 -and key is the key you are looking for
 <br>Returns the value associated with the element, or NULL if key couldn’t be found
 
 <br>5. >>> print(ht)
-<br>Write a function that prints a hash table.
 
+<br>Write a function that prints a hash table.
 <br>Prototype: void hash_table_print(const hash_table_t *ht);
 -where ht is the hash table
 <br>You should print the key/value in the order that they appear in the array of hash table
@@ -135,6 +135,7 @@ You will have to use this hash function for all the next tasks
 <br>If ht is NULL, don’t print anything
 
 <br>6. >>> del ht
+
 <br>Write a function that deletes a hash table.
 <br>Prototype: void hash_table_delete(hash_table_t *ht);
 -where ht is the hash table
