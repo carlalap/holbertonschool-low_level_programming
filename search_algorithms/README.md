@@ -77,7 +77,7 @@
 <!-- Progress vs Score -->
 
 <!-- Task Body -->
-<p>Write a function that searches for a value in an array of integers using the <a href="/rltoken/mYs3y5cH8l2NQ3r5F877Rg" title="Linear search algorithm" target="_blank">Linear search algorithm</a></p>
+<p>Write a function that searches for a value in an array of integers using the <a href="https://en.wikipedia.org/wiki/Linear_search" title="Linear search algorithm" target="_blank">Linear search algorithm</a></p>
 
 <ul>
 <li>Prototype : <code>int linear_search(int *array, size_t size, int value);</code></li>
@@ -165,7 +165,7 @@ Found 999 at index: -1
 <!-- Progress vs Score -->
 
 <!-- Task Body -->
-<p>Write a function that searches for a value in a sorted array of integers using the <a href="/rltoken/xEszUEO6AeaqlWg_t99FhA" title="Binary search algorithm" target="_blank">Binary search algorithm</a></p>
+<p>Write a function that searches for a value in a sorted array of integers using the <a href="https://en.wikipedia.org/wiki/Binary_search_algorithm" title="Binary search algorithm" target="_blank">Binary search algorithm</a></p>
 
 <ul>
 <li>Prototype : <code>int binary_search(int *array, size_t size, int value);</code></li>
@@ -307,5 +307,4 @@ Found 999 at index: -1
      return (map);
 }
 </code></pre>
-
-  </div>
+</div>
